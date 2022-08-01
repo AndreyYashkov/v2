@@ -1,0 +1,1 @@
+web: gunicorn desolate-brushlands-94060.wsgi --log-file -
