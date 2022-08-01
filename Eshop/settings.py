@@ -55,6 +55,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'Eshop.urls'
 
 import os
+import django_heroku
+
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
@@ -128,3 +130,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = "/image/download/"
 MEDIA_ROOT = BASE_DIR
+
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
+
+django_heroku.setting(locals())
