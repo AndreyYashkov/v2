@@ -1,1 +1,1 @@
-web: gunicorn testz66.wsgi --log-file -
+web: gunicorn desolate-brushlands-94060.wsgi --log-file -
