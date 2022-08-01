@@ -133,4 +133,4 @@ MEDIA_ROOT = BASE_DIR
 
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
-django_heroku.setting(locals())
+django_heroku.settings(locals())
